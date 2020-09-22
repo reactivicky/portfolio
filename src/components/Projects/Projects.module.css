@@ -1,0 +1,50 @@
+.Projects {
+	background: #030b16;
+	padding-bottom: 20px;
+	min-height: 100vh;
+}
+
+.ProjectsContainer {
+	background: #fff;
+	border-radius: 10px;
+	text-align: center;
+	padding: 40px 19px;
+}
+
+.Heading {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.CardContainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: space-between;
+	justify-items: center;
+	grid-gap: 20px;
+}
+
+@media (min-width: 660px) {
+	.CardContainer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 970px) {
+	.CardContainer {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (min-width: 1286px) {
+	.CardContainer {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media (min-width: 1590px) {
+	.CardContainer {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}

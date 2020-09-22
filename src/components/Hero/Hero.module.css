@@ -1,0 +1,112 @@
+.Hero {
+	background: #030b16;
+	color: #fff;
+	min-height: 100vh;
+}
+
+.SubHeading {
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.TextSection {
+	padding: 65px 0 80px 0;
+}
+
+.TextSection p {
+	line-height: 1.5;
+}
+
+.Heading {
+	font-size: 38px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.Icons {
+	margin-top: 50px;
+}
+
+.Icons a {
+	color: white;
+	margin-right: 15px;
+}
+
+.ImageSection {
+	display: none;
+}
+
+.ResumeBtnContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.ResumeBtnContainer a {
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #030b16;
+	font-weight: 500;
+	color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	transition: transform 0.1s ease-in;
+	-webkit-transition: transform 0.1s ease-in;
+}
+
+.ResumeBtnContainer a:hover {
+	color: white;
+	background: rgb(52, 68, 241);
+	transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	transition: transform 0.1s ease-in;
+	-webkit-transition: transform 0.1s ease-in;
+}
+
+.ResumeBtnContainer a svg {
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+.RoundImg {
+	border-radius: 50%;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	background-image: url('../../assets/cover-pic.jpg');
+	background-repeat: no-repeat;
+	background-position: -140px;
+	background-size: cover;
+}
+
+.HeroGrid {
+	padding-top: 20px;
+}
+
+@media (min-width: 1000px) {
+	.RoundImg {
+		display: none;
+	}
+
+	.ImageSection {
+		display: block;
+	}
+
+	.HeroGrid {
+		display: grid;
+		height: 100%;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 30px;
+		align-items: center;
+	}
+
+	.ProfilePic {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}

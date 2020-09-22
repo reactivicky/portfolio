@@ -1,0 +1,46 @@
+.Navbar {
+	/* position: fixed;
+	top: 0px;
+	left: 0px; */
+	width: 100%;
+	/* transition: all 0.35s ease-in-out 0s; */
+	height: 41px;
+	background: #030b16;
+	padding: 30px 0px;
+}
+
+.NavbarContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.LogoContainer {
+	height: 41px;
+}
+
+.Logo {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.NavItems {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.NavItem a {
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #030b16;
+	font-weight: 500;
+	color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.NavItem a:hover {
+	color: white;
+	background: rgb(52, 68, 241);
+}
