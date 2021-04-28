@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Hero.module.css'
 import { Link } from 'react-router-dom'
-import { FaFacebookF, FaInstagram, FaGithub } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { IoIosCodeWorking } from 'react-icons/io'
 import { BsDownload } from 'react-icons/bs'
 import profileImg from '../../assets/cover-pic.jpg'
@@ -26,24 +26,11 @@ const Hero = () => {
 						<a
 							target='_blank'
 							rel='noopener noreferrer'
-							href='https://github.com/vickysonata94'
+							href='https://github.com/reactivicky'
 						>
 							<FaGithub />
 						</a>
-						<a
-							target='_blank'
-							rel='noopener noreferrer'
-							href='https://www.facebook.com/vickysonata94/'
-						>
-							<FaFacebookF />
-						</a>
-						<a
-							target='_blank'
-							rel='noopener noreferrer'
-							href='https://www.instagram.com/vickysonata94/?hl=en'
-						>
-							<FaInstagram />
-						</a>
+
 						<div className={classes.ResumeBtnContainer}>
 							<Link to='./files/Vignesh-react.pdf' target='_blank' download>
 								Download Resume <BsDownload />

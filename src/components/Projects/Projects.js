@@ -7,7 +7,7 @@ const Projects = () => {
 		{
 			name: 'Rental Management System',
 			src: 'rental.jpg',
-			url: 'https://vickysonata94.github.io/crownstack/',
+			url: 'https://rental-management-reactivicky.vercel.app/',
 		},
 		{
 			name: 'Todo App',
@@ -25,19 +25,19 @@ const Projects = () => {
 			url: 'https://indecision-app-vickysonata.netlify.com/',
 		},
 		{
-			name: 'Axelerant',
+			name: 'Landing Page',
 			src: 'axelerant.png',
-			url: 'https://vickysonata94.github.io/Axelerant-assignment/',
+			url: 'https://landing-page-reactivicky.vercel.app/',
 		},
 		{
 			name: 'Tutor Match',
 			src: 'tutormatch.png',
-			url: 'https://vickysonata94.github.io/betProtocol-front-end-assignment/',
+			url: 'https://blog-reactivicky.vercel.app/',
 		},
 		{
-			name: 'StackOverflow Clone',
+			name: 'Admin Dashboard',
 			src: 'stackoverflowclone.png',
-			url: 'https://vickysonata94.github.io/iqm-front-end-assignment/',
+			url: 'https://admin-dashboard-reactivicky.vercel.app/',
 		},
 	]
 	return (
